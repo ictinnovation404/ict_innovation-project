@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('photos/background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+}
+
+
+  .header .navbar{
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 15px 20px 10px 20px;
+    background-color: white;
+    display: flex;
+    padding: 10px; 
+}
+.header .navbar .logo{
+    display: flex;
+}
+.header .navbar .logo img{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+}
+.header .navbar .logo p{
+    margin: 10px 10px;
+    font-size: 33px;
+    font-weight: 900;
+}
+.header .navbar .navlist{
+    margin: 0 20px 0 610px;
+    display: flex;
+}
+.header .navbar .navlist ul{
+    display: flex;
+    list-style: none;
+}
+.header .navbar .navlist ul li{
+    font-size: 16px;
+    padding: 18px 17px;
+}
+.header .navbar .navlist ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header .navbar .navlist ul li:hover{
+  font-weight: bold;
+}
+.header .navbar .navlist button{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid orange;
+    margin: 5px 0;
+}
+.header .navbar .navlist button a{
+  color: black;
+  text-decoration: none;
+}
+.header .navbar .navlist button:hover{
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+
+/*
+.header1 {
+    border-radius: 20px;
+    margin: 50px 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
+  .header1 h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0;
+    position: relative;
+  }
+
+  .header1 h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+  }
+
+  .header1 h1:hover::after {
+    width: 100%;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background-color:#ADD8E6;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ADD8E6;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    resize: none;
+    overflow: hidden;
+    min-height: 100px;
+    box-shadow:#ffb07c;
+  }
+
+  #buts{
+    background-color: #ffb07c;
+    color: #ADD8E6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+
+   #buts:hover {
+    background-color: #ADD8E6;
+    color: #ffb07c;
+  }
+
+  .company-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(150, 176, 124);
+  }
+
+  .company-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+
+  .company-info i {
+    margin-right: 10px;
+    color: #ffb07c;
+  }
+
+  .success-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+  }
+
+  .error {
+    color: #d9534f;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2em;
+    }
+
+    form, .company-info {
+      margin: 10px;
+      padding: 15px;
+    }
+
+    button {
+      font-size: 1em;
+      padding: 8px 16px;
+    }
+  }*/
+
+  .about{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    border-radius: 20px;
+    margin: 20px 40px;
+    display: block;
+    padding: 30px;
+}
+.descr{
+  justify-content: left;
+  align-items: center;
+  margin: 190px 0;
+  width: 500px;
+  position: absolute;
+}
+.descr h1{
+    font-size: 43px;
+    color: #fff;
+    font-weight: 900;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.descr p{
+    font-size: 20px;
+    color: grey;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 60px 0;
+}
+.container2 form{
+    height: 420px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    backdrop-filter: blur(1400px);
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+.container2 h1{
+   margin: 20px 200px 0 159px;
+   width: 500px;
+   text-align: center;
+}
+.container2 form .input-box{
+   position: relative;
+   width: 50%;
+   margin-top: 10px;
+}
+.container2 form .input-box input{
+    width: 80%;
+    border: none;
+    margin: 10px 30px;
+    padding: 5px 0px;
+    font-size: 16px;
+    background: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.container2 form .input-box span{
+    position: absolute;
+    left: 0px;
+    margin: 10px 30px;
+    padding: 5px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: black;
+    background: none;
+}
+.container2 .input-box input:valid ~ span,
+.container2 .input-box input:focus ~ span{
+    font-size: 15px;
+    transform: translateY(-20px);
+}
+.container2 form #lastname,
+.container2 form #number{
+    left: 0px;
+}
+.container2 form .textarea-side h3{
+    font-weight: 300px;
+    width: 500px;
+    color: #000;
+    margin: 10px 100px 0px 10px;
+    font-size: 18px;
+}
+.container2 form textarea{
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid #000;
+    background: none;
+    color: black;
+    font-weight: 200;
+    padding: 10px;
+    outline: none;
+    max-width: 600px;
+    min-width: 567px;
+    max-height: 80px;
+    min-height: 80px;
+    margin-left: 0px;
+}
+.container2 form #button{
+    border: none;
+    height: 40px;
+    background: #11dfb256;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 23px;
+    width: 100px;
+    padding: 0;
+    margin-right: 410px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.container2 form #button:hover{
+    opacity: 0.8;
+}
+.about2 img{
+    width: 70px;
+    height: 70px;
+    margin: 10px 0 0 69px;
+}
+
+
+.footer{
+    background-color: #000000;
+    color: white;
+    margin: 0 0 -30px;
+}
+.information{
+    display: flex;
+}
+.follow{
+    float: right;
+    margin-left: 350px;
+}
+.follow h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 23px;
+}
+.follow h1 span{
+    font-weight: bold;
+    color: #FFC300;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 0 15px;
+}
+.socials a:hover{
+    color: #FFC300;
+}
+.info1{
+    display: flex;
+}
+.info1 img{
+    height: 90px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.info1 h2{
+    margin-top: 32px;
+    font-size: 24px;
+}
+.logo1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.logo1 h1{
+    margin-top: 5px;
+}
+.logo1 p{
+    margin-top: 17px;
+    margin-left: 14px;
+}
+.last-lists{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.categories{
+    display: block;
+}
+.categories dt{
+    font-size: 25px;
+    font-family:  sans-serif;
+    text-decoration: underline;
+}
+.categories dd a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+.categories dd a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.help{
+    margin-left: 200px;
+}
+.help dt{
+    font-size: 25px;
+    font-family:  sans-serif;
+    text-decoration: underline;
+}
+.help dd a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+.help dd a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.last-lists{
+    display: flex;
+}
+.company{
+    margin-left: 200px;
+}
+.company dt{
+    font-size: 25px;
+    font-family:  sans-serif;
+    text-decoration: underline;
+}
+.company dd a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+.company dd a:hover{
+    text-decoration: underline;
+    font-weight: bolder;   
+}
+.copy{
+    margin: 20px 450px 29px;
+    font-size: 20px;
+    padding: 10px;
+}

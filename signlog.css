@@ -1,0 +1,201 @@
+* {
+  margin:7;
+  padding: 4;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url('photos/background.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.content{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+}
+.contains-all{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  border-radius: 20px;
+  min-height: 90vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+.welcome{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: -50px 20px 0;
+}
+.container{
+  background: #ADD8E6;
+  padding: 2rem;
+  border-radius: 50px;
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  text-align:center;
+  font-style:italic;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 60px;
+  font-size: 1rem;
+  border: 2px solid #ADD8E6;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+/*button:hover {
+  background: #0056b3;
+}*/
+
+.toggle {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.toggle a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.toggle a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
+.apple{
+  background-color: #fc9003; /* Button background color */
+  color: black ; /* Initial text color */
+  border: none; /* Remove default border */
+  padding: 15px 10px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: color 0.3s; /* Smooth transition for color change */
+  text-align:center;
+  border-radius: 400em;
+ }
+ .apple:hover {
+  color: #ADD8E6; /* Change text color on hover */
+}
+.email{
+  background-color: #fc9003; /* Button background color */
+  color: black ; /* Initial text color */
+  border: none; /* Remove default border */
+  padding: 15px 10px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: color 0.3s; /* Smooth transition for color change */
+  text-align:center;
+  border-radius: 400em;
+ }
+ .email:hover {
+  color: #ADD8E6; /* Change text color on hover */
+}
+.google{
+  background-color: #fc9003; /* Button background color */
+  color: black ; /* Initial text color */
+  border: none; /* Remove default border */
+  padding: 15px 10px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: color 0.3s; /* Smooth transition for color change */
+  text-align:center;
+  border-radius: 400em;
+ }
+ .google:hover {
+  color: #ADD8E6; /* Change text color on hover */
+}
+
+.login{
+  color-scheme: rgb(32, 32, 32);
+  border-radius: 190cqmax;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold; /* or 700 */
+  color:black;
+  background-color:#ADD8E6;
+}
+.login:hover{
+  color: #ed9d1c;
+}
+.signup{
+  font-weight: bold; /* or 700 */
+  color:black;
+  background-color:#ADD8E6;
+
+}
+.signup:hover{
+  color: #ed9d1c;
+}
+/* Add this to signlog.css or keep here */
+#signInOptions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 2px solid #d38115;
+  /*border-radius: 50px;*/
+  
+  cursor: pointer;
+  font-size: 14px; /* Assumed text size; adjust if different in signlog.css */
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#signInOptions button img {
+  height: 23px; /* Matches font-size of text */
+  width: auto; /* Maintains aspect ratio */
+  margin-right: 10px;
+}
+.terms-notice{
+  font-size:15px;
+}

@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('photos/background.jpg');
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+}
+.header .navbar{
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 15px 20px 15px 20px;
+    background-color: white;
+    display: flex;
+    padding: 10px; 
+}
+.header .navbar .logo{
+    display: flex;
+}
+.header .navbar .logo img{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+}
+.header .navbar .logo p{
+    margin: 10px 10px;
+    font-size: 33px;
+    font-weight: 900;
+}
+.header .navbar .navlist{
+    margin: 0 20px 0 475px;
+    display: flex;
+}
+.header .navbar .navlist ul{
+    display: flex;
+    list-style: none;
+}
+.header .navbar .navlist ul li{
+    font-size: 16px;
+    padding: 18px 17px;
+}
+.header .navbar .navlist ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header .navbar .navlist ul li:hover{
+    font-weight: bold;
+}
+.header .navbar .navlist button{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid orange;
+    margin: 5px 0;
+}
+.header .navbar .navlist button a{
+    color: black;
+    text-decoration: none;
+}
+.header .navbar .navlist button:hover{
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+}
+.header .headings h1{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.header .headings h1 span{
+    color: orange;
+}
+.header .headings p{
+    margin: 10px 200px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.header .headings .buttons{
+    text-align: center;
+    margin: 30px 0;
+    padding: 10px;
+}
+.header .headings .buttons #but1{
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: orange;
+    border: none;
+}
+.header .headings .buttons #but1:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.header .headings .buttons #but2{
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 2px solid orange;
+}
+.header .headings .buttons #but2:hover{
+    cursor: pointer;
+    background-color: orange;
+    opacity: 0.7;
+    transform: scale(1.02);
+}
+.description .title{
+    text-align: center;
+    padding: 20px;
+}
+.description .title h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #FFC300;
+    padding: 10px;
+}
+.description .title p{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+.description .cards{
+    padding: 30px;
+}
+.description .cards .card1{
+    border-radius: 10px;
+    background-color: #eff1f9;
+    margin: 10px 15px;
+    display: flex;
+    padding: 20px;
+}
+.description .cards .card1 img{
+    margin: 10px 20px;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+.description .cards .card1 span{
+    padding: 10px;
+    margin: 30px 10px 0;
+}
+.description .cards .card1 span h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: orangered;
+    padding: 0px 0px 20px; 
+}
+.description .cards .card1 span p{
+    font-size: 20px;
+    font-weight: 500; 
+    letter-spacing: 0.5;
+}
+.description .cards .card1 span button{
+    height: 50px;
+    width: 220px;
+    font-size: 18px;
+    margin: 80px 0 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC300;
+    opacity: 0.9;
+}
+.description .cards .card1 span button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.description .cards .card1 span button img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin: 0px 0 10px 8px;
+}
+.description .cards .card2{
+    border-radius: 10px;
+    background-color: #eff1f9;
+    margin: 10px 15px;
+    display: flex;
+    padding: 20px;
+}
+.description .cards .card2 img{
+    margin: 10px 20px;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+.description .cards .card2 span{
+    padding: 10px;
+    margin: 30px 10px 0;
+}
+.description .cards .card2 span h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: orangered;
+    padding: 0px 0px 20px; 
+}
+.description .cards .card2 span p{
+    font-size: 20px;
+    font-weight: 500; 
+    letter-spacing: 0.5;
+}
+.description .cards .card2 span button{
+    height: 50px;
+    width: 220px;
+    font-size: 18px;
+    margin: 80px 0 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC300;
+    opacity: 0.9;
+}
+.description .cards .card2 span button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.description .cards .card2 span button img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin: 0px 0 10px 8px;
+}
+.description .cards .card3{
+    border-radius: 10px;
+    background-color: #eff1f9;
+    margin: 10px 15px;
+    display: flex;
+    padding: 20px;
+}
+.description .cards .card3 img{
+    margin: 10px 20px;
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+}
+.description .cards .card3 span{
+    padding: 10px;
+    margin: 30px 10px 0;
+}
+.description .cards .card3 span h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: orangered;
+    padding: 0px 0px 20px; 
+}
+.description .cards .card3 span p{
+    font-size: 20px;
+    font-weight: 500; 
+    letter-spacing: 0.5;
+}
+.description .cards .card3 span button{
+    height: 50px;
+    width: 220px;
+    font-size: 18px;
+    margin: 80px 0 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFC300;
+    opacity: 0.9;
+}
+.description .cards .card3 span button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.description .cards .card3 span button img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin: 0px 0 10px 8px;
+}
+.trusted p{
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.trusted .images{
+    position: absolute;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0 180px 0 180px
+}
+.trusted .images img{
+    height: 180px;
+    width: 220px;
+    border-radius: 20px;
+}
+.testimony{
+    margin: 40% 0 60px;
+}
+.container{
+    max-width: 1320px;
+    margin: 10px 0 10px 10px;
+    padding: 0px 10px 30px;
+    display: flex;
+}
+.section-header{
+    padding: 10px;
+}
+.swiper {
+    width: 800px;
+    height: 300px;
+    padding: auto;
+  }
+.section-header h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+}
+.section-header h1 span{
+    font-size: 50px;
+    font-weight: 900;
+    color: #FFC300;
+    padding: 10px;
+}
+.section-header p{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    padding: 10px;
+}
+.testimonials-items{
+    background-color: #eff1f9;
+    padding: 30px;
+    border-radius: 30px;
+}
+.testimonials-items img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+.testimonials-items .info{
+    display: flex;
+    align-items: center;;
+}
+.testimonials-items .info .text-box{
+    padding: 0 20px;
+}
+.testimonials-items .info .text-box h3{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFC300;
+    text-transform: capitalize;
+}
+.testimonials-items .info .text-box h3 span{
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.testimonials-items p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.testimonials-items .rating{
+    align-items: center;
+    color: #FFC300;
+}
+.testimonials-items .swiper-pagination{
+    position: relative;
+    bottom: auto;
+    margin-top: 10px;
+}
+.joining .join{
+    text-align: center;
+    padding: 40px;
+    background: #2b4f6b;
+    background-size: cover;
+    background-position: center;
+}
+.joining .join h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    padding: 10px 200px;
+}
+.joining .join h1 span{
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFC300;
+    padding: 10px 200px;
+}
+.joining .join button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin: 30px 0 0;
+    border-radius: 10px;
+    border: none;
+    background: #FFC300;
+    opacity: 0.9;
+}
+.joining .join button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+#myVideo{
+    position: relative;
+    border-radius: 50px;
+    margin: 10px 100px 30px;
+}
+.explore-video{
+    background-image: url(photos/background1.jpg)no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.footer{
+    background-color: #000000;
+    color: white;
+}
+.information{
+    display: flex;
+}
+.follow{
+    float: right;
+    margin-left: 350px;
+}
+.follow h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 23px;
+}
+.follow h1 span{
+    font-weight: bold;
+    color: #FFC300;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 0 15px;
+}
+.socials a:hover{
+    color: #FFC300;
+}
+.info1{
+    display: flex;
+}
+.info1 img{
+    height: 90px;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.info1 h2{
+    margin-top: 32px;
+    font-size: 24px;
+}
+.logo1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.logo1 h1{
+    margin-top: 5px;
+}
+.logo1 p{
+    margin-top: 17px;
+    margin-left: 14px;
+}
+.last-lists{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.categories{
+    display: block;
+}
+.categories dt{
+    font-size: 25px;
+    font-family:  sans-serif;
+    text-decoration: underline;
+}
+.categories dd a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+.categories dd a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.help{
+    margin-left: 200px;
+}
+.help dt{
+    font-size: 25px;
+    font-family:  sans-serif;
+    text-decoration: underline;
+}
+.help dd a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+.help dd a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.last-lists{
+    display: flex;
+}
+.company{
+    margin-left: 200px;
+}
+.company dt{
+    font-size: 25px;
+    font-family:  sans-serif;
+    text-decoration: underline;
+}
+.company dd a{
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: grey;
+}
+.company dd a:hover{
+    text-decoration: underline;
+    font-weight: bolder;   
+}
+.copy{
+    margin: 20px 450px 29px;
+    font-size: 20px;
+    padding: 10px;
+}
